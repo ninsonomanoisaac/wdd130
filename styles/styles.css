@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -22,7 +22,9 @@ nav a{
     padding: 20px;
 }
 h1 {
-    color: steelblue;
+    color: rgb(255, 201, 74);
+    margin: 0;
+    padding: 1rem;
 }
 img {
     width: 150px;
@@ -31,7 +33,7 @@ img {
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
-p{
+.p{
     padding: 10px;
 }
 main {
