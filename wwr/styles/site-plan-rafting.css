@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --primary-color: #011627;
+    --secondary-color: #ff9f1c;
+    --accent1-color: #fdfffc;
+    --accent2-color: #2ec4b6;
+  
+    --heading-font: 'Montserrat Subrayada', serif;
+    --paragraph-font: 'Roboto', serif;
+  
+    --nav-background-color: #fdfffc;
+    --nav-link-color: #011627;
+    --nav-hover-link-color: #fdfffc;
+    --nav-hover-background-color: #e71d36;
+}
+      
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+  }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+}
+header{
+    padding: 20px;
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+}
+p {
+    padding: 25px;
+}
+section {
+    background-color: var(--primary-color);
+    color: #e71d36;
+}
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
