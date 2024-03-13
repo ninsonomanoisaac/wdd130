@@ -1,7 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 nav {
     background-color: steelblue;
     padding: 10px;
 }
+/* Class Selector"box"*/
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0,.1);
+    padding: 1rem;
+    background-color: rgb(255, 179, 0);
+    color: #000;
+}
+
 nav a{
     color: white;
     display: block;
@@ -25,20 +39,27 @@ main {
 }
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2); /* 1 */
+    /*margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2); 
     padding: 1rem;
     background-color: #eee;
-    color: #333;
+    color: #333;*/
     text-align: center;
 }
+
 aside img{
     width: 200px;
     height: auto;
 }
+aside h2 {
+    position: absolute;
+    top: 47px;
+    left: 150px;
+}
 main img {
     width: 150px;
     height: auto;
+    float: right;
 }
 p {padding: 0;}
 
