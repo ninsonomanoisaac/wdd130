@@ -8,7 +8,7 @@ nav {
     background-color: rgb(9, 73, 126);
     padding: 10px;
 }
-
+/* Class Selector name "box"*/
 .box{
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0,.1);
