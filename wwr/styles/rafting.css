@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root {
+    --primary-color: #ffffff27;
+    --secondary-color: #ffad14;
+    --accent1-color: #fdfffc;
+    --accent2-color: #2ec4b6;
+  
+    --heading-font: 'Montserrat Subrayada', serif;
+    --paragraph-font: 'Roboto', serif;
+  
+    --nav-background-color: #6c9458;
+    --nav-link-color: #011627;
+    --nav-hover-link-color: #fdfffc;
+    --nav-hover-background-color: #e71d36;
+}
+header img{
+    width: 200px;
+    margin: 0;
+}
+header nav a{
+    color: #011627;
+    padding: .1rem;
+    
+}
+header {
+    padding: 20px;
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+}
+
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+    
+.hero{
+    width: 100%;
+    position: relative;
+
+}
+.hero img {
+    display:block;
+    width: 100%;
+    height: auto;
+    
+    
+}
+h1 {
+    position:absolute;
+    color: #fdfffc;
+    text-align: center;
+    background-color:rgba(255, 176, 17, 0.8);
+    top: 20%;
+    left: 0;
+    right: 0;
+    padding: 1rem;    
+}
+article{
+    background-color:rgba(6, 145, 196, 0.842);
+    position: absolute;
+    top: 50%;
+    width: 80%;
+    height: 20%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 1rem;
+    color: #fdfffc;
+
+}
+.hero article img {
+    width: 200px;
+    float: right;
+}
+
+section img{
+    width: 500px;
+}
+footer{
+    margin-top: auto;
+    text-align: left;
+    color: #2ec4b6;
+}
+.sociallinks a img {
+    width: 30px;
+    height: 50px;
+    margin: 0 auto;
+}
