@@ -3,9 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body {
-    display: block;
-}
+
 nav {
     background-color: rgb(9, 73, 126);
     padding: 1rem;
