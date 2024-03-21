@@ -1,6 +1,4 @@
 *{
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
@@ -17,11 +15,10 @@ nav {
     border: 1.5px solid rgba(0, 0, 0,.1);
     padding: 1rem;
     background-color: #dddddd;
-    color: #000000;
 }/* Class Selector name "box"*/
 
 a{ 
-    margin: 0.5rem;
+    margin: 1rem;
 }
 nav a{
     color: #fff; 
@@ -37,9 +34,8 @@ h1 {
     padding: 10px;
     border-bottom: 1.5px solid rgb(9, 73, 126);
 }
+
 img {
-    width: 150px;
-    height: auto;
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 10px rgba(173, 173, 173, 0.8);
@@ -71,7 +67,7 @@ aside h2 {
     position: absolute;
     top: 48px;
     left: 85px;
-    color: #ffffff;
+    color: #000000;
 
 }
 
