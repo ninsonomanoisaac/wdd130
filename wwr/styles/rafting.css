@@ -13,20 +13,43 @@
     --nav-hover-link-color: #fdfffc;
     --nav-hover-background-color: #e71d36;
 }
+
+*{
+    box-sizing:content-box}
+
 header img{
-    width: 200px;
+    width: 150px;
     margin: 0;
+    padding: 30px;
 }
 header nav a{
     color: #011627;
-    padding: .1rem;
-    
+    padding: 1rem;
+   
 }
 header {
-    padding: 20px;
-    background-color: var(--primary-color);
+
+    background-color: var(--secondary-color);
     color: var(--accent1-color);
+    display: grid;
+    margin: 1rem auto;
+    grid-template-columns: 3fr 1fr 1fr;
+    align-items: right;
+    max-width: 1000px;
+    border-bottom: 1px solid #ccc;
+
+
 }
+
+.history {
+    background-color: #469cde;
+    display:flex;
+    padding: 30px;
+    grid-template-columns: 1fr 1fr 2fr;
+    align-items: center;
+    max-width: 1000px;
+}
+
 
 
 body {
@@ -34,11 +57,21 @@ body {
     max-width: 960px;
     padding: 20px;
 }
+.grid {
+    display: flex;
+}
+
+fig img {
+    width: 100%;
+}
+
 
     
 .hero{
-    width: 100%;
+    width: 100%px;
+    height: auto;
     position: relative;
+    align-content: center;
 
 }
 .hero img {
@@ -61,9 +94,9 @@ h1 {
 article{
     background-color:rgba(6, 145, 196, 0.842);
     position: absolute;
-    top: 50%;
+    top: 40%;
     width: 80%;
-    height: 35%;
+    height: 40%;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -83,9 +116,51 @@ footer{
     margin-top: auto;
     text-align: left;
     color: #2ec4b6;
+
 }
 .sociallinks a img {
     width: 30px;
     height: 50px;
     margin: 0 auto;
+    
+}
+
+nav {
+     /*background-color: #ffad14;
+     padding: 1rem;
+     display: flex;
+     justify-content:flex-end;
+     align-items: center;*/
+    
+     justify-content: space-evenly;
+     align-items: center;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+}
+
+a {
+    margin: 1rem;
+}
+
+.navigation a {
+    color: #fff; 
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+.navigation a:hover {
+    color: white;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+main{
+    width: 840px;
+    margin: 0;
 }
