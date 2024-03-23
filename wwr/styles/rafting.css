@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 :root {
     --primary-color: #ffffff27;
     --secondary-color: #ffad14;
@@ -14,8 +15,6 @@
     --nav-hover-background-color: #e71d36;
 }
 
-*{
-    box-sizing:content-box}
 
 header img{
     width: 150px;
@@ -67,7 +66,7 @@ fig img {
 
     
 .hero{
-    width: 100%px;
+    width: 840px;
     height: auto;
     position: relative;
     align-content: center;
