@@ -32,9 +32,8 @@ header {
     background-color: var(--secondary-color);
     color: var(--accent1-color);
     display: grid;
-    margin: 1rem auto;
-    grid-template-columns: 3fr 1fr 1fr;
-    align-items: right;
+    margin: 0.5rem auto;
+    grid-template-columns:  2fr 1fr .5fr;
     max-width: 1000px;
     border-bottom: 1px solid #ccc;
 
