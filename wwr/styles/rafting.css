@@ -56,8 +56,12 @@ body {
     padding: 20px;
 }
 .grid {
+
     display: flex;
+    flex-direction: row;
+    max-width: 50px;
 }
+
 
 fig img {
     width: 100%;
@@ -79,6 +83,7 @@ fig img {
     
     
 }
+
 h1 {
     position:absolute;
     color: #fdfffc;
